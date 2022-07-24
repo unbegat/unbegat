@@ -1,0 +1,9 @@
+body {background-color:black;}
+#Header{background-color: ivory; font-size: 56; font-family: fantasy; text-align: center;}
+#Links{margin-left: 600;margin-right: 200; margin-top: 70; background-color: ivory;text-align: center;}
+
+.table{display: table;}
+ 
+#horizontal-list li{display: inline;}
+
+#Comic{background-color: ivory; margin-left: 200;margin-right: 200; margin-top: 50;}
