@@ -1,6 +1,6 @@
 body {background-image:url("bg.png");}
 #Header{background-color: whitesmoke; font-size: 56; font-family: fantasy; text-align: center;}
-#Links{margin-left: 600;margin-right: 200; margin-top: 70; background-color: black; color: white;text-align: center;}
+#Links{margin-left: 600;margin-right: 200; margin-top: 70; background-color:whitesmoke;text-align: center;}
 
 .table{display: table;}
  
