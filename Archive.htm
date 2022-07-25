@@ -3,36 +3,11 @@
 	<title>
 		Mundanities
 	</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" title="Default">
+	<link rel="stylesheet" type="text/css" href="Assets/styles.css" title="Default">
 </head>
 <body>
 	<!--the initialising of comic image happens in the script below-->
 	<script type="text/javascript" src="Assets/scripto.js"></script>
-
-	<script type="text/javascript">
-		window.onload = function(){
-			// Get the image
-		  const image = new Image()
-		  image.src = 'Comics/1.png'
-
-		  // Wait Till the Image is loaded
-		  image.onload = function() {
-		    drawCanvas(image)
-		  }
-
-		  function drawCanvas(image) {
-		    // Create canvas context
-		    const canvas = document.getElementById('floornet')
-		    const context = canvas.getContext("2d")
-
-		    canvas.width = image.width 
-		    canvas.height = image.height 
-
-		    // Draw image to the canvas
-		    context.drawImage(image, 0, 0) 
-		  }
-		}
-	</script>
 
 
 	<div id="Header">Mundanities</div>
@@ -42,9 +17,7 @@
 			
 			<li>
 				<script type="text/javascript">
-					function randomSite(){
-						i = RandoInt();
-						location.href= i + ".htm";} 
+
 				</script>
 				<a href="#" onclick="randomSite();">Random</a>
 			</li>
