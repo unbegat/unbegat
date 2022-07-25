@@ -1,9 +1,38 @@
 body {background-image:url("bg.png");}
-#Header{background-color: whitesmoke; font-size: 56; font-family: fantasy; text-align: center;}
-#Links{margin-left: 600;margin-right: 200; margin-top: 70; background-color:whitesmoke;text-align: center;}
+#Header{font-style: italic;background-color: white; font-size: 56; font-family: fantasy; text-align: center; border: 4px solid #000000 ;}
 
-.table{display: table;}
- 
 #horizontal-list li{display: inline;}
 
-#Comic{background-color: whitesmoke; margin-left: 200;margin-right: 200; margin-top: 50;}
+#Comic{background-color: white; margin-left: 200;margin-right: 200;font:30px Arial,sans-serif;}
+
+.about{margin-left: 175px;margin-right: 225px; margin-top: 20px;text-align: center; color: black; background-color: white; font-family: sans-serif; font-size: 25;}
+
+#caption{font-family: sans-serif; font-size: 25; font-weight: bold; font-style: italic; text-decoration: underline;}
+
+#canvas{margin-top: 25px;}
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 500;
+  word-spacing: 900;
+}
+	.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	}
+	/* Change the color of links on hover */
+	.topnav a:hover {
+	  background-color: white;
+	  color: black;
+	}
+	/* Hide the link that should open and close the topnav on small screens */
+	.topnav .icon {
+	  display: none;
+	}
