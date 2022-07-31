@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>
-		Mundanities
+		Spyglass: See a bird's eye view of a looong panel
 	</title>
 	<link rel="stylesheet" type="text/css" href="Assets/styles.css" title="Default">
 </head>
@@ -15,7 +15,7 @@
 
 
 
-	<div id="Header">Fool's Gold</div>
+	<div id="Header">Spyglass</div>
 	
 	<div class="topnav">
 		<a href="index.htm">Home</a>
@@ -28,13 +28,19 @@
 
 
 	<div id="Comic" class="about">
-		<div id="caption">
+		<div id="caption"><!--important id because random relies on this-->
 			<script type="text/javascript">document.getElementById("caption").innerHTML =Issue[no-1]</script><br>
 		</div>
 		<div id="canvas" style="max-width: 4620; max-height: 600px; overflow: scroll; border:2px solid #000000;border-top: 0px; ">
 				<canvas width="3900px" height="1200px" id="floornet" ></canvas>
 		</div>
 	</div>
+
+	<!--div class="about">
+		<div id="Description">
+			 <script type="text/javascript">document.getElementById("Description").innerHTML =Descriptions[no-1]</script><br><br><br><br>
+		</div>
+	</div-->
 
 </body>
 </html>
